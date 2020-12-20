@@ -1,5 +1,6 @@
 .footer {
     background-color: rgb(233, 233, 233);
+    bottom: 0;
 }
 .logo {
     width: 100px;

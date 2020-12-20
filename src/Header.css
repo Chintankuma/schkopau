@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    background-color: white;
+    background-color: rgb(235, 235, 235);
     z-index: 100;
     width: 100%;
     top: 0;
@@ -15,6 +15,7 @@
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .header__center {
@@ -27,7 +28,7 @@
     margin-right: 50px;
 }
 
-.header__center > p {
+.header__center > h5 {
     cursor: pointer;
 }
 
@@ -35,8 +36,8 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    height: 30px;
-    border: 1px solid lightgray;
+    height: 50px;
+    border: 2px solid lightgray;
     border-radius: 999px;
     justify-content: space-between;
 }
@@ -46,4 +47,5 @@
     width: 250px;
     padding: 10px;
     outline-width: 0;
+    background-color: rgb(235, 235, 235);
 }

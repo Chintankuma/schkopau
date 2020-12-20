@@ -6,12 +6,12 @@ function Header() {
         <div className="header">
             <img className="header__icon" src="https://www.gemeinde-schkopau.de/media/bilder/artikelbilder/startseite/news/tn91x108_schkopau_logo_schriftzug_homepage.gif"></img>
             <div className="header__center">
-                <p>Bürgerservice</p>
-                <p>Ansprechpartner</p>
-                <p>Veranstaltungen</p>
-                <p>Kultur + Tourismus</p>
-                <p>Einrichtungen</p>
-                <p>Gewerbe</p>
+                <h5>Bürgerservice</h5>
+                <h5>Ansprechpartner</h5>
+                <h5>Veranstaltungen</h5>
+                <h5>Kultur + Tourismus</h5>
+                <h5>Einrichtungen</h5>
+                <h5>Gewerbe</h5>
             </div>
             <div className="header__right">
                 <input type="text"></input>

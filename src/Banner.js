@@ -3,8 +3,18 @@ import './Banner.css';
 
 function Banner() {
     return (
-        <div>
-            <h1>i am banner</h1>
+        // <div className="banner">
+        //    <div className="banner__info">
+        //        <h1>Kultur + Tourismus</h1>
+        //        <h5>Hier finden Sie Informationen zum Elster-Radwanderweg.</h5>
+        //    </div>
+        // </div>
+        <div className="banner">
+            <img className="banner__image" src="https://www.mz-web.de/image/31365070/8x3/2000/750/37b6381c0eef116ed6ac9c8030ac908/sT/b-luftbild-von-schkopau-280918.jpg"></img>
+            <div className="bottom-left">
+                <h1>Kultur + Tourismus</h1>
+                <h4>Hier finden Sie Informationen zum Elster-Radwanderweg.</h4>
+            </div>
         </div>
     )
 }

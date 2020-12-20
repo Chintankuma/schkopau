@@ -1,0 +1,48 @@
+.sidebar {
+    flex: 0.2;
+    margin-left: 10px;
+}
+
+.vor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.vorlesen {
+    display: flex;
+    align-items: center;
+}
+.vorlesen > h5 {
+    margin-right: 5px;
+}
+
+.vorlesen__icon {
+    font-size: large !important;
+    color: #606060;
+    display: flex;
+    align-items: center;
+    
+}
+
+.firstrow__icons {
+    font-size: large !important;
+    color: #606060;
+    display: flex;
+    justify-content: space-between;
+    fontSize:"large";
+}
+
+.stadtplan {
+    width: 97%;
+    height: 150px;
+}
+
+.sagt {
+    width: 97%;
+    height: 150px;
+}
+
+.phone {
+    display: flex;
+}

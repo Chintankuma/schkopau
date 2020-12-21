@@ -1,12 +1,18 @@
 import React from 'react'
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
+import {Link} from 'react-router-dom';
 function Header() {
     return (
         <div className="header">
+            <Link to="/">
             <img className="header__icon" src="https://www.gemeinde-schkopau.de/media/bilder/artikelbilder/startseite/news/tn91x108_schkopau_logo_schriftzug_homepage.gif"></img>
+            </Link>
+            
             <div className="header__center">
+                <Link to="/buergerservice">
                 <h5>Bürgerservice</h5>
+                </Link> 
                 <h5>Ansprechpartner</h5>
                 <h5>Veranstaltungen</h5>
                 <h5>Kultur + Tourismus</h5>

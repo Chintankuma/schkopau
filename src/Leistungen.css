@@ -1,0 +1,8 @@
+.acco {
+  width: 100%;
+}
+
+.accordion > button {
+  color: black;
+  font-size: 50px;
+}

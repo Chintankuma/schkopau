@@ -3,7 +3,7 @@ import './Card.css'
 
 function Card({src, title, description}) {
     return (
-        <div className="card">
+        <div className="cardHome">
             <img src={src}></img>
             <div className="card__info">
                 <h2>{title}</h2>

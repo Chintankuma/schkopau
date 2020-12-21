@@ -11,7 +11,9 @@ function Header() {
             
             <div className="header__center">
                 <Link to="/buergerservice">
-                <h5>Bürgerservice</h5>
+                    <a>
+                    <h5>Bürgerservice</h5>
+                    </a>
                 </Link> 
                 <h5>Ansprechpartner</h5>
                 <h5>Veranstaltungen</h5>

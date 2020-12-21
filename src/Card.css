@@ -1,4 +1,4 @@
-.card {
+.cardHome {
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -9,11 +9,11 @@
 
 }
 
-.card:hover {
+.cardHome:hover {
     transform: scale(1.07);
 }
 
-.card > img {
+.cardHome > img {
     object-fit: fill;
     min-width: 300px;
     min-height: 200px;

@@ -32,6 +32,13 @@
     cursor: pointer;
 }
 
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
 .header__right {
     display: flex;
     align-items: center;

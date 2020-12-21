@@ -3,6 +3,7 @@ import './Home.css';
 import Banner from './Banner';
 import Sidebar from './Sidebar';
 import CardList from './CardList';
+import Leistungen from './Leistungen';
 
 function Home() {
     return (

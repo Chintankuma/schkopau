@@ -5,7 +5,7 @@ import './BuergerService.css'
 function BuergerService() {
     return (
         <div class="container mt-5">
-            <h1>Bürgerservice</h1>
+            <h1>Bürger + Verwaltung</h1>
             <hr></hr>
             <h5>Was erledige ich wo in der Gemeinde Schkopau?</h5>
             <div className="search">

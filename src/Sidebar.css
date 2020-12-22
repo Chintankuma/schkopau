@@ -39,6 +39,11 @@
     height: 150px;
 }
 
+.bild__monat {
+    width: 97%;
+    height: 200px;
+}
+
 .sagt {
     width: 97%;
     height: 150px;
@@ -47,4 +52,13 @@
 
 .phone {
     display: flex;
+}
+
+.five__row{
+    display: flex;
+    align-items: center;
+}
+.gold__image {
+    align-items: center;
+    margin-left: 37%;
 }

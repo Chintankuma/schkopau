@@ -49,8 +49,17 @@ function Sidebar() {
                 <img className="stadtplan" src="https://fink.hamburg/wp/wp-content/uploads/2017/07/Google-Maps.png"></img>
             </div>
             <hr></hr>
+            <div className="bild">
+                <h3>Bild des Monats</h3>
+                <img className="bild__monat" src="https://www.gemeinde-schkopau.de/media/bilder/bilddesmonats/tn274x274_img-20201215-wa0001.jpg"></img>
+            </div>
+            <hr></hr>
             <div className="fourth__row">
                 <img className="sagt" src="https://teleport.de/wp-content/uploads/2015/08/20130812_logo_s-u-e_left.png"></img>
+            </div>
+            <hr></hr>
+            <div className="five__row">
+                <img className="gold__image" src="https://www.gemeinde-schkopau.de/media/bilder/tn100x100_regionale-unternehmerwelt-button-rounded.png"></img>
             </div>
             <hr></hr>
         </div>

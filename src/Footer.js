@@ -36,8 +36,10 @@ function footer() {
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>About</h5>
+        <h5>Kontakt</h5>
         <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Gesundheitsamt: 03461 / 40-2727</a></li>
+          <li><a class="link-secondary" href="#">Internet: https://www.saalekreis.de</a></li>
           <li><a class="link-secondary" href="#">Datenschutz</a></li>
           <li><a class="link-secondary" href="#">Barrierfreiheit</a></li>
           <li><a class="link-secondary" href="#">Hilfe</a></li>

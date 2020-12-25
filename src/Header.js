@@ -15,15 +15,18 @@ function Header() {
                     <h5>Bürgerservice</h5>
                     </a>
                 </Link> 
-                <h5>Ansprechpartner</h5>
-                <h5>Veranstaltungen</h5>
                 <Link to="/kultur">
                     <a>
                     <h5>Kultur + Tourismus</h5>
                     </a>
                 </Link>
-                
-                <h5>Einrichtungen</h5>
+                <Link to="/ortsteile">
+                    <a>
+                    <h5>Ortsteile</h5>
+                    </a>
+                </Link>
+                <h5>Ansprechpartner</h5>
+                <h5>Veranstaltungen</h5>
                 <h5>Gewerbe</h5>
             </div>
             <div className="header__right">

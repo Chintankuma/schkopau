@@ -7,6 +7,8 @@ import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BuergerService from './BuergerService';
 import Kultur from './Kultur';
 import Rad from './Rad';
+import Ortsteile from './Ortsteile';
+import Einort from './Einort';
 
 function App() {
   return (
@@ -14,6 +16,12 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
+        <Route path="/ortsteile">
+          <Ortsteile></Ortsteile>
+        </Route>
+        <Route path="/burgliebenau">
+          <Einort></Einort>
+        </Route>
         <Route path="/rad">
             <Rad></Rad>
           </Route>

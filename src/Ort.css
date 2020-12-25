@@ -1,0 +1,49 @@
+.ort {
+    display: flex;
+    position: relative;
+    margin:20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ort:hover {
+    opacity: 0.8;
+}
+
+.ort >img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ort__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.ort__infoTop {
+    width: 40vw;
+}
+
+.ort__infoTop > h3 {
+    font-weight: 500;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+
+.ort__infoTop > p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+.ort__infoBottom > p {
+    color: green;
+    
+}

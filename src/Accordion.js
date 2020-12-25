@@ -7,7 +7,7 @@ function Accordion() {
     return (
         <div class="mt-5">
             <div className="title">
-                <h1>Bürgerservice</h1>
+                <h1 style={{"color":"gray"}}>Bürgerservice</h1>
                 <hr className="hr"></hr>
             </div>
            <Leistungen></Leistungen>

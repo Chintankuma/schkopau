@@ -4,7 +4,7 @@ import KulturList from './KulturList'
 
 function kultur() {
     return (
-        <div class="container mt-5" className="kultur__List">
+        <div className="kultur__List">
             <KulturList></KulturList>
         </div>
     )

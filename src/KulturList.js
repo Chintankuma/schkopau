@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 
 function KulturList() {
     return (
-        <div className="kultur__List">
-            <h1>Kultur + Tourismus</h1>
+        <div class="container mt-4">
+            <h1 className="h1">Kultur + Tourismus</h1>
             <hr></hr>
             <div className="home__section">
                 <Link to="rad">

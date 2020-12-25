@@ -1,9 +1,6 @@
-.rad__h1 {
-    margin-left: 20px;
+h1 {
     color: gray;
-    margin-top: 20px;
 }
-
 .images {
     display: flex;
     justify-content: space-between;
@@ -15,4 +12,8 @@
     width: 310px;
     border-radius: 10px;
     overflow: hidden;
+}
+
+h5 {
+    margin-top: 40px;
 }

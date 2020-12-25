@@ -15,7 +15,7 @@ function Banner() {
             <div className="bottom-left">
                 <Link to="kultur">
                     <a>
-                    <h1>Kultur + Tourismus</h1>
+                    <h1 style={{"color": "green"}}>Kultur + Tourismus</h1>
                     </a>
                 </Link>
                 <h4>Hier finden Sie Informationen zum Elster-Radwanderweg.</h4>

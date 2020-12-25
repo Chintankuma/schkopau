@@ -1,5 +1,6 @@
 import React from 'react';
 import './Banner.css';
+import {Link} from 'react-router-dom';
 
 function Banner() {
     return (
@@ -12,7 +13,11 @@ function Banner() {
         <div className="banner">
             <img className="banner__image" src="https://www.mz-web.de/image/31365070/8x3/2000/750/37b6381c0eef116ed6ac9c8030ac908/sT/b-luftbild-von-schkopau-280918.jpg"></img>
             <div className="bottom-left">
-                <h1>Kultur + Tourismus</h1>
+                <Link to="kultur">
+                    <a>
+                    <h1>Kultur + Tourismus</h1>
+                    </a>
+                </Link>
                 <h4>Hier finden Sie Informationen zum Elster-Radwanderweg.</h4>
             </div>
         </div>

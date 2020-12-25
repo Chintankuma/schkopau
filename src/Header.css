@@ -30,6 +30,7 @@
 
 .header__center > h5 {
     cursor: pointer;
+    color: green;
 }
 
 a:link {

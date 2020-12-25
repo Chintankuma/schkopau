@@ -1,0 +1,12 @@
+
+.kultur__List > h1 {
+    margin-left: 50px;
+    color: gray;
+    margin-top: 20px;
+    
+} 
+
+.kultur__List > hr {
+    width: 73%;
+    margin-left: 30px;
+}

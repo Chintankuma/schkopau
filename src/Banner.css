@@ -34,4 +34,10 @@
     cursor: pointer;
 }
 
-
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}

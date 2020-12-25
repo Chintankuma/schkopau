@@ -5,6 +5,8 @@ import Home from './Home';
 import Footer from './Footer';
 import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import BuergerService from './BuergerService';
+import Kultur from './Kultur';
+import Rad from './Rad';
 
 function App() {
   return (
@@ -12,7 +14,13 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-        <Route path="/BuergerService">
+        <Route path="/rad">
+            <Rad></Rad>
+          </Route>
+          <Route path="/Kultur">
+            <Kultur></Kultur>
+          </Route>
+          <Route path="/BuergerService">
             <BuergerService></BuergerService>
           </Route>
           <Route path="/">
